@@ -1,0 +1,23 @@
+{
+  "name": "react-pure-css-modal",
+  "version": "1.0.0",
+  "description": "only css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasonWang01/react-pure-css-modal.git"
+  },
+  "keywords": [
+    "react",
+    "modal"
+  ],
+  "author": "yicheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EasonWang01/react-pure-css-modal/issues"
+  },
+  "homepage": "https://github.com/EasonWang01/react-pure-css-modal#readme"
+}
