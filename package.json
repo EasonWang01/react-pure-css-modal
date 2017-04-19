@@ -1,8 +1,8 @@
 {
   "name": "react-pure-css-modal",
-  "version": "1.0.0",
-  "description": "only css",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "react-pure-css-modal",
+  "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/EasonWang01/react-pure-css-modal/issues"
   },
-  "homepage": "https://github.com/EasonWang01/react-pure-css-modal#readme"
+  "homepage": "https://github.com/EasonWang01/react-pure-css-modal#readme",
+  "devDependencies": {
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1"
+  }
 }

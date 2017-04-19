@@ -1,0 +1,28 @@
+.yicheng-modal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.yicheng-modalbg {
+  visibility: hidden;
+}
+
+.yicheng-modalWhite {
+  visibility: hidden;
+}
+
+.yicheng-modal-state {
+  display: none;
+}
+
+.yicheng-modal-state:checked ~ .yicheng-modalbg > .yicheng-modalWhite {
+  visibility: visible;
+}
+
+.yicheng-modal-state:checked ~ .yicheng-modalbg {
+  visibility: visible;
+}

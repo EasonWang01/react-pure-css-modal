@@ -1,5 +1,5 @@
-var Modal = require('./src/simpleModal')
+var Modal = require('./dist/simpleModal')
 
 module.exports = {
-  Modal: Modal
+  Modal: Modal.default
 }
