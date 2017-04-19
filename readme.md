@@ -19,3 +19,15 @@ open Modal
 ```
 <button onClick={() => document.getElementById('anyID').click()}></button>
 ```
+
+close Modal(same as open)
+
+```
+<button onClick={() => document.getElementById('anyID').click()}></button>
+```
+
+check open
+
+```
+document.getElementById('anyID').checked
+```
