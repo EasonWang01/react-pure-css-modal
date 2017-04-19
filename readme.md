@@ -4,9 +4,13 @@
 npm install react-pure-css-modal --save
 
 
+
+
 # #How to use
 
 ```
+import { Modal } from 'react-pure-css-modal';
+
 <Modal id="anyID" onClose={() => {console.log("Modal close")}} />
 ```
 
