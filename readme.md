@@ -36,3 +36,27 @@ import { Modal } from 'react-pure-css-modal';
 ```
 document.getElementById('anyID').checked
 ```
+
+- Modal component
+
+```js
+import { Modal } from 'react-pure-css-modal';
+import React from 'react';
+import PropTypes from 'prop-types';
+
+function ModalDisplay(props) {
+  return (
+    <Modal id={props.id} onClose={() => props.onClose()}>
+      {props.children}
+    </Modal>
+  );
+}
+
+ModalDisplay.propTypes = {
+  id: PropTypes.string.isRequired,
+  onClose: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
+};
+
+export default ModalDisplay;
+```
