@@ -46,7 +46,7 @@ import PropTypes from 'prop-types';
 
 function ModalDisplay(props) {
   return (
-    <Modal id={props.id} onClose={() => props.onClose()}>
+    <Modal style={props.style} id={props.id} onClose={() => props.onClose()}>
       {props.children}
     </Modal>
   );
@@ -54,6 +54,7 @@ function ModalDisplay(props) {
 
 ModalDisplay.propTypes = {
   id: PropTypes.string.isRequired,
+  style: PropTypes.object.isRequired, // eslint-disable-line react/forbid-prop-types
   onClose: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
 };
@@ -64,11 +65,11 @@ export default ModalDisplay;
 Center Modal
 
 ```js
-      <Modal
-        style={{
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
-            top: '50%',
-        }}
-      />  
+<Modal
+  style={{
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    top: '50%',
+  }}
+/>  
 ```
