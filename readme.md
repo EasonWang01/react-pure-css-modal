@@ -60,3 +60,15 @@ ModalDisplay.propTypes = {
 
 export default ModalDisplay;
 ```
+
+Center Modal
+
+```js
+      <Modal
+        style={{
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            top: '50%',
+        }}
+      />  
+```
